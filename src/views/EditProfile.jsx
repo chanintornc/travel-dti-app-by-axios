@@ -98,8 +98,8 @@ function EditProfile() {
 
           localStorage.clear()
           
-          const data = await response.json()
-          localStorage.setItem('traveller', JSON.stringify(data["data"]))
+          // const data = await response.json()
+          localStorage.setItem('traveller', JSON.stringify(response.data["data"]))
 
           navigator('/mytravel')
         }else{
