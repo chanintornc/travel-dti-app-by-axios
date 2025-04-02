@@ -64,8 +64,8 @@ function Register() {
 
         if( response.status == 201){
           alert('ลงทะเบียนสำเร็จ')
-          // navigator('/')
-          window.location.href('/')
+          navigator('/')
+          // window.location.href('/')
         }else{
           alert('ลงทะเบียนไม่สำเร็จ กรุณาลองใหม่อีกครั้ง')
         }
